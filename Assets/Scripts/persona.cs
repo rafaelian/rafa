@@ -42,7 +42,7 @@ public class persona : MonoBehaviour
        transform.eulerAngles = new Vector3(0f, 0f, 0f);
     }   
 
-    if(Input.GetAxis("Horizontal") < 0f){
+    if(Input.GetAxis("Horizontal")  <0f){
     
        anime.SetBool("Run", true);
        transform.eulerAngles = new Vector3(0f, 180f, 0f);

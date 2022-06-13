@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+using UnityEngine.SceneManagement;
+
 public class Savepoints : MonoBehaviour
 {
     public int totalPontos;
@@ -23,5 +25,12 @@ public class Savepoints : MonoBehaviour
     {
         gameOver.SetActive(true);        
     }
+
+    public void RestartGame(string level)
+    {
+      SceneManager.LoadScene(level);
+    }
     
+
+
 }
