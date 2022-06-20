@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿
+// Bibliotecas do Unity que são carregadas assim que o arquivo C#, sem estás 03 bibliotecas o script não irá funcionar.using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

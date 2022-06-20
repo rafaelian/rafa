@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿// Bibliotecas do Unity que são carregadas assim que o arquivo C#, sem estás 03 bibliotecas o script não irá funcionar.
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -31,7 +32,7 @@ public class fallingPlataform : MonoBehaviour
         target.enabled = false;
         boxcollider.isTrigger = true;
     }
-    // destroi
+    // destroi o obejeto quando entra em contato com um objeto de layer 6
 
     void OnTriggerEnter2D(Collider2D collider)
     {
